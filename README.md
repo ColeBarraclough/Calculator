@@ -1,0 +1,1 @@
+A basic javascript calculator that can add, subract, multiply and divide with html buttons
