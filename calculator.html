@@ -3,38 +3,40 @@
     <head>
         <title>Calculator</title>
         <script type="text/javascript" src="calculator.js"></script>
+        <link rel="stylesheet" href="calculator.css">
     </head>
     <body>
         <div id="container">
             <div id = "display">
             </div>
             <div id = "digits">
-                <button type = "button" class="digitButton">0</button>
-                <button type = "button" class="digitButton">1</button>
-                <button type = "button" class="digitButton">2</button>
-                <button type = "button" class="digitButton">3</button>
-                <button type = "button" class="digitButton">4</button>
-                <button type = "button" class="digitButton">5</button>
-                <button type = "button" class="digitButton">6</button>
                 <button type = "button" class="digitButton">7</button>
                 <button type = "button" class="digitButton">8</button>
                 <button type = "button" class="digitButton">9</button>
-            </div>
-            <div id = ".">
-                <button type = "button" id="dotButton" class="digitButton">0</button>
+                <button type = "button" class="digitButton">4</button>
+                <button type = "button" class="digitButton">5</button>
+                <button type = "button" class="digitButton">6</button>
+                <button type = "button" class="digitButton">1</button>
+                <button type = "button" class="digitButton">2</button>
+                <button type = "button" class="digitButton">3</button>
+                <button type = "button" id="toggleNegativeButton" class="digitButton">+/-</button>
+                <button type = "button" class="digitButton">0</button>
+                <button type = "button" id="dotButton" class="digitButton">.</button>
             </div>
             <div id = "operators">
                 <button type = "button" id="plusButton" class="operatorButton">+</button>
                 <button type = "button" id="minusButton" class="operatorButton">-</button>
-                <button type = "button" id="multiplyButton" class="operatorButton">*</button>
+                <button type = "button" id="multiplyButton" class="operatorButton">x</button>
                 <button type = "button" id="divideButton" class="operatorButton">/</button>
-            </div>
-            <div id = "equals">
                 <button type = "button" class="equalsButton">=</button>
             </div>
             <div id = "extra">
-                <button type = "button" id="backButton" class="extraButton">back</button>
-                <button type = "button" id="clearButton" class="extraButton">clear</button>
+                <button type = "button" id="backButton" class="extraButton">Back</button>
+                <button type = "button" id="clearButton" class="extraButton">Clear</button>
+                <div id="brackets">
+                    <button type = "button" id="leftbracketButton" class="bracketButton">(</button>
+                    <button type = "button" id="clearButton" class="bracketButton">)</button>
+                </div>
             </div>
         </div>
     </body>
