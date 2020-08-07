@@ -2,7 +2,6 @@
 <html>
     <head>
         <title>Calculator</title>
-        <script type="text/javascript" src="calculator.js"></script>
         <link rel="stylesheet" href="calculator.css">
     </head>
     <body>
@@ -19,7 +18,7 @@
                 <button type = "button" class="digitButton">1</button>
                 <button type = "button" class="digitButton">2</button>
                 <button type = "button" class="digitButton">3</button>
-                <button type = "button" id="toggleNegativeButton" class="digitButton">+/-</button>
+                <button type = "button" id="negativeButton" disabled="disabled" class="digitButton"></button>
                 <button type = "button" class="digitButton">0</button>
                 <button type = "button" id="dotButton" class="digitButton">.</button>
             </div>
@@ -40,4 +39,5 @@
             </div>
         </div>
     </body>
+    <script type="text/javascript" src="calculator.js"></script>
 </html>

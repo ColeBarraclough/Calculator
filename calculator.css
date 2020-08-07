@@ -68,4 +68,11 @@ html, body {
     grid-row-start: 1;
     grid-row-end: 2;
     border: solid;
+    font-size: 64px;
+    text-align: right;
 }
+
+button {
+    font-size: 32px;;
+}
+
